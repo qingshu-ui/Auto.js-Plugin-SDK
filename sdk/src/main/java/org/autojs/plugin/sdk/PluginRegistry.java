@@ -1,8 +1,10 @@
 package org.autojs.plugin.sdk;
 
 import android.content.Context;
-import android.support.annotation.Keep;
+//import android.support.annotation.Keep;
 import android.util.Log;
+
+import androidx.annotation.Keep;
 
 import java.util.HashMap;
 

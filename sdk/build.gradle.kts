@@ -29,7 +29,7 @@ android {
 
 dependencies {
     implementation(fileTree("libs") { include("*.jar") })
-    implementation(libs.appcompat.v7)
+    implementation(libs.androidx.appcompat)
     testImplementation(libs.junit)
     androidTestImplementation(libs.runner)
     androidTestImplementation(libs.espresso.core)
